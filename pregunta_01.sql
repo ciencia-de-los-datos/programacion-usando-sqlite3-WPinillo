@@ -17,6 +17,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+/*
 CREATE TABLE tbl1 (
     K0  CHAR(1),
     K1  INT,
@@ -58,5 +59,5 @@ INSERT INTO tbl1 VALUES
     ('B',28,326.45,700,'2017-07-27',0.36,'AGAA'),
     ('D',29,317.77,200,'2017-02-27',0.47,'GCEA'),
     ('A',30,135.80,900,'2017-01-26',0.23,'EGAB');
-
+*/
 SELECT SUM(c12) FROM tbl1
