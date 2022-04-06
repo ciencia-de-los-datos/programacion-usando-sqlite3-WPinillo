@@ -40,3 +40,16 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT
+    t0.K0,
+    t1.c16
+FROM
+    tbl0 t0
+INNER JOIN
+    tbl1 t1
+ON
+    (t0.K0 = t1.K0)
+WHERE
+    t0.K0 = SUBSTRING(t1.c16 ,1, 1)
+ORDER BY c14 ASC
+LIMIT 5
