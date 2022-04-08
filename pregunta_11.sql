@@ -38,3 +38,10 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT
+    SUBSTRING(c23,1, 4) AS YEAR,
+    COUNT(c23)          AS CANT
+FROM
+    tbl1
+HAVING
+    YEAR = '2018'
