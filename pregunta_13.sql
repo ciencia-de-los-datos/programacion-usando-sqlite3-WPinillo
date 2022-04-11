@@ -43,3 +43,10 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+SELECT
+    K0,
+    AVG(c12)
+FROM
+    tbl1
+HAVING
+    c13 > 400
