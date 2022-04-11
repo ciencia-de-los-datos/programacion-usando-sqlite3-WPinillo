@@ -43,4 +43,14 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-
+SELECT
+    t1.K0,
+    AVG(t2.c21)
+FROM
+    tbl0 t1
+INNER JOIN
+    tbl1 t2
+ON
+    (t1.K0 = t2.K0)
+WHERE
+    t0.C13 > 400
