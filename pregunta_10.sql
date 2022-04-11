@@ -47,4 +47,4 @@ SELECT
 FROM
     tbl0
 WHERE
-    c02 <= 300
+    c02 >= 300
