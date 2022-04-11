@@ -39,7 +39,7 @@
 --  2  C  CCCE
 --
 --  >>> Escriba su codigo a partir de este punto <<<
--- 
+--
 SELECT
     t0.K0,
     t1.c16
@@ -50,6 +50,6 @@ INNER JOIN
 ON
     (t0.K0 = t1.K0)
 WHERE
-    t0.K0 = SUBSTRING(t1.c16 ,1, 1)
+    t0.K0 = SUBSTR(t1.c16 ,1, 1)
 ORDER BY c14 ASC
 LIMIT 5
