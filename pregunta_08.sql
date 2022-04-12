@@ -46,3 +46,5 @@ SELECT
     AVG(c21)
 FROM
     tbl2
+GROUP BY
+    YEAR
