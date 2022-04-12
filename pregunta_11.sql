@@ -39,9 +39,11 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    SUBSTRING(c23,1, 4) AS YEAR,
-    COUNT(c23)          AS CANT
+    SUBSTR(c14,1, 4) AS YEAR,
+    COUNT(*)          AS CANT
 FROM
     tbl1
+GROUP BY
+    YEAR
 HAVING
     YEAR = '2018'
