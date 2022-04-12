@@ -47,10 +47,12 @@ SELECT
     t1.K0,
     AVG(t2.c21)
 FROM
-    tbl0 t1
+    tbl1 t1
 INNER JOIN
-    tbl1 t2
+    tbl2 t2
 ON
-    (t1.K0 = t2.K0)
+    (t1.K1 = t2.K1)
 WHERE
-    t0.C13 > 400
+    t1.c13 > 400
+GROUP BY
+    K0
