@@ -48,5 +48,7 @@ SELECT
     AVG(c12)
 FROM
     tbl1
-HAVING
+WHERE
     c13 > 400
+GROUP BY
+    K0
