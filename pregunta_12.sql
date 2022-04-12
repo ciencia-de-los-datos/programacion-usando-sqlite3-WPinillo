@@ -48,3 +48,5 @@ SELECT
     MIN(c12)
  FROM
     tbl1
+GROUP BY
+    K0
