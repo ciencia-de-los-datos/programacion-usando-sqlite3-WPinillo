@@ -42,9 +42,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT
-    STRFTIME('%Y', c23) AS YEAR,
+    STRFTIME('%Y', c23),
     AVG(c21)
 FROM
     tbl2
 GROUP BY
-    YEAR
+    STRFTIME('%Y', c23)
