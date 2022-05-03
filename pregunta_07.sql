@@ -48,6 +48,6 @@ SELECT
 FROM
   tbl1
 WHERE
-  k0 bot NOT IN ('A', 'B')
+  k0 NOT IN ('A', 'B')
   AND c13 NOT IN (100, 900)
 ORDER BY c14
