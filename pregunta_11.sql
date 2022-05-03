@@ -39,11 +39,8 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 SELECT
-    SUBSTR(c14,1, 4) AS YEAR,
-    COUNT(*)          AS CANT
+    COUNT(*)
 FROM
     tbl1
-GROUP BY
-    YEAR
-HAVING
-    YEAR = '2018'
+WHERE
+    STRFTIME('%Y', c14) = '2018'
