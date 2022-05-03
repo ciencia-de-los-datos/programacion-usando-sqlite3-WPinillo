@@ -44,15 +44,15 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 SELECT
-    t1.k0,
-    AVG(t2.c21)
+    k0,
+    AVG(c21)
 FROM
-    tbl1 t1
+    tbl1
 LEFT JOIN
-    tbl2 t2
+    tbl2
 ON
-    (t1.k1 = t2.k1)
+    (tbl1.k1 = tbl2.k1)
 WHERE
-    t1.c13 > 400
+    c13 > 400
 GROUP BY
     k0
