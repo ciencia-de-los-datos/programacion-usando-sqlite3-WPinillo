@@ -41,15 +41,9 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --
 SELECT
-    t0.K0,
-    t1.c16
+    k0,
+    c16
 FROM
-    tbl0 t0
-INNER JOIN
-    tbl1 t1
-ON
-    (t0.K0 = t1.K0)
+    tbl1
 WHERE
-    t0.K0 = SUBSTR(t1.c16 ,1, 1)
-ORDER BY c14 ASC
-LIMIT 5
+    SUBSTR(c16 ,1, 1) = k0
