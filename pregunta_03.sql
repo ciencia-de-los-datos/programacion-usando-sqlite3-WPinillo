@@ -26,5 +26,5 @@ SELECT
     *
 FROM
     tbl1
-ORDER BY c14 ASC
+ORDER BY c14
 LIMIT 5
