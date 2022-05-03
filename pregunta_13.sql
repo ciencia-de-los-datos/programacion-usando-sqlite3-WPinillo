@@ -43,12 +43,4 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
-SELECT
-    k0,
-    AVG(c12)
-FROM
-    tbl1
-WHERE
-    c13 > 400
-GROUP BY
-    k0
+SELECT k0, AVG(c12) FROM tbl1 WHERE c13 > 400 GROUP BY k0
