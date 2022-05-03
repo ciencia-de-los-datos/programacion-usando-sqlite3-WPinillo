@@ -44,11 +44,11 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
 SELECT
-    K0,
+    k0,
     AVG(c12)
 FROM
     tbl1
 WHERE
     c13 > 400
 GROUP BY
-    K0
+    k0
